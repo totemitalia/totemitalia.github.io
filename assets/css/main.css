@@ -1,0 +1,247 @@
+:root{
+  --accent:#E95C1C;
+  --light:#F7F7F7;
+  --dark:#070707;
+}
+
+.bg-accent{ background: var(--accent) !important; }
+.bg-light{ background: var(--light) !important; }
+.bg-dark{ background: var(--dark) !important; }
+.bg-muted{ background: var(--muted) !important; }
+
+.text-accent{ color: var(--accent) !important; }
+.text-light{ color: var(--light) !important; }
+.text-dark{ color: var(--dark) !important; }
+.text-muted{ color: var(--muted) !important; }
+
+nav {
+  border-bottom: 1px solid var(--dark);
+  color: var(#070707)
+}
+
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.full-width {
+  width: 100vw;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.hero{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+
+  background-image: url("/assets/img/totem-space.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+section {
+  padding: 50px 25px;
+}
+
+.vsl {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.vss {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.text-large {
+  font-size: 2.5em;
+}
+.text-extra-large {
+  font-size: 3.5em;
+}
+
+.btn-outline {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid;
+  background: transparent;
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all .25s ease;
+  border-radius: 5px;
+}
+
+.btn-outline:hover{
+  background: var(--accent);
+}
+
+.square-img{
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.with-border {
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:visited{
+  color: inherit;
+  text-decoration: none;
+}
+
+.logo-footer {
+  width: 80px;
+  height: 80px;
+  margin: 50px;
+}
+
+.card-like {
+  background-color: var(--light);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+  padding: 30px;
+}
+
+.card-background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px;
+}
+.about-card-background { background-image: url("/assets/img/totem-space.jpg"); }
+.materials-card-background { background-image: url("/assets/img/birch-plywood.jpg"); }
+.paint-card-background { background-image: url("/assets/img/paint.jpg"); }
+.totembuild-card-background { background-image: url("/assets/img/totembuild.jpg"); }
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+  width: 60%;
+  display: inline-block;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.furniture-categories-background {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px;
+}
+.beds-and-sofas-category-background { background-image: url("/assets/img/furniture/categories/beds-and-sofas.jpg")}
+.cabinets-category-background { background-image: url("/assets/img/furniture/categories/cabinets.jpg")}
+.bookcases-category-background { background-image: url("/assets/img/furniture/categories/bookcases.jpg")}
+.tables-and-chairs-category-background { background-image: url("/assets/img/furniture/categories/tables-and-chairs.jpg")}
+.wall-furniture-category-background { background-image: url("/assets/img/furniture/categories/wall-furniture.jpg")}
+.for-children-category-background { background-image: url("/assets/img/furniture/categories/furniture-for-children.jpg")}
+.accessories-category-background { background-image: url("/assets/img/furniture/categories/accessories.jpg")}
+.maintenance-category-background { background-image: url("/assets/img/furniture/categories/maintenance.png")}
+
+.spaces-img { width: 100% }
+.totem-spaces-section {
+  padding-bottom: 200px;
+  margin-bottom: -200px;
+}
+
+.under-construction {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.beds-and-sofas-uc-background { background-image: url("/assets/img/furniture/categories/beds-and-sofas.jpg")}
+.cabinets-uc-background { background-image: url("/assets/img/furniture/categories/cabinets.jpg")}
+.bookcases-uc-background { background-image: url("/assets/img/furniture/categories/bookcases.jpg")}
+.tables-and-chairs-uc-background { background-image: url("/assets/img/furniture/categories/tables-and-chairs.jpg")}
+.wall-furniture-uc-background { background-image: url("/assets/img/furniture/categories/wall-furniture.jpg")}
+.for-children-uc-background { background-image: url("/assets/img/furniture/categories/furniture-for-children.jpg")}
+.accessories-uc-background { background-image: url("/assets/img/furniture/categories/accessories.jpg")}
+.maintenance-uc-background { background-image: url("/assets/img/furniture/categories/maintenance.png")}
+
+.totembuild-property-tile {
+  aspect-ratio: 1 / 1;
+}
+
+.totembuild-property-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.totembuild-advantages-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-image: url("/assets/img/totembuild/advantages.png");
+  min-height: 250px;
+}
+
+.totembuild-advantages {
+  padding: 50px;
+}
+
+.totembuild-property-txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.totembuild-property-bg1 { background-image: url("/assets/img/totembuild/properties/p1.jpg")}
+.totembuild-property-bg2 { background-image: url("/assets/img/totembuild/properties/p2.jpg")}
+.totembuild-property-bg3 { background-image: url("/assets/img/totembuild/properties/p3.jpg")}
+.totembuild-property-bg4 { background-image: url("/assets/img/totembuild/properties/p4.png")}
+.totembuild-property-bg5 { background-image: url("/assets/img/totembuild/properties/p5.jpg")}
+.totembuild-property-bg6 { background-image: url("/assets/img/totembuild/properties/p6.png")}
+.totembuild-property-bg7 { background-image: url("/assets/img/totembuild/properties/p7.png")}
+.totembuild-property-bg8 { background-image: url("/assets/img/totembuild/properties/p8.jpg")}
+
+.totembuild-material {
+  padding: 50px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/assets/img/birch-plywood.jpg");
+}
+
+.totembuild-example-image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.vertical-middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  gap: 0;
+}
+.vertical-middle > * {
+  margin: 0;
+}
